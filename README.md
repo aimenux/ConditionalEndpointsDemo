@@ -16,14 +16,14 @@ In this demo, i m using various ways in order to disable some endpoints in produ
 > :four: Using [feature flags](https://github.com/microsoft/FeatureManagement-Dotnet) `ConditionalFeatureFilter` to enable/disable endpoints based on environment.
 >
 
-The first way is the simplest one in my opinion. The other ways needs more code to disable endpoints also in swagger (see `ConditionalSwaggerFilter` or `ConditionalSwaggerConvention`).
+The first way is the simplest one in my opinion. The other ways needs more code to disable endpoints also in swagger.
 
 In order to simulate the behaviour in production environment :
 >
-> :heavy_minus_sign: Open `launchSettings.json`
+> :heavy_minus_sign: Open file `launchSettings.json` of some project for example `01-Way`
 >
 > :heavy_minus_sign: Edit the appropriate profile for example `_01_Way` or `IIS Express`
 >
-> :heavy_minus_sign: Set variable `ASPNETCORE_ENVIRONMENT` to `Production`
+> :heavy_minus_sign: Set variable `ASPNETCORE_ENVIRONMENT` to `Production` value
 
 **`Tools`** : vs22, net 6.0
