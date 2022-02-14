@@ -16,7 +16,7 @@ In this demo, i m using various ways in order to disable some endpoints in produ
 > :four: Using [feature flags](https://github.com/microsoft/FeatureManagement-Dotnet) `ConditionalFeatureFilter` to enable/disable endpoints based on environment.
 >
 
-The first way is the simplest one in my opinion (the other ways needs more code to disable endpoints also in swagger).
+The first way is the simplest one in my opinion. The other ways needs more code to disable endpoints also in swagger (see `ConditionalSwaggerFilter` or `ConditionalSwaggerConvention`).
 
 In order to simulate the behaviour in production environment :
 >
